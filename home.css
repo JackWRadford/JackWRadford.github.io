@@ -3,8 +3,23 @@ html
   padding-left: 1rem;
   padding-right: 1rem;
 }
+body{
+  background-color: white;
+}
+
+h5
+{
+  font-size: 30px;
+}
+
 .name
 {
   text-align: center;
   padding-top: 2rem;
+}
+
+.btn
+{
+  outline: none !important;
+  border: none !important;
 }
