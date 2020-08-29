@@ -1,6 +1,6 @@
 html
 {
-  font-family: sans-serif;
+
 }
 
 h1
@@ -11,4 +11,9 @@ h1
 body
 {
   text-align: center;
+}
+
+div
+{
+  background-color: lightgrey;
 }
