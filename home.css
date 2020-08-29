@@ -1,17 +1,14 @@
 html
 {
-  /* font-family: "Courier New", Courier, monospace; */
   font-family: sans-serif;
 }
 
 h1
 {
   text-align: center;
-  color: DarkGreen;
 }
 
 body
 {
   text-align: center;
-  //background-color: AntiqueWhite;
 }
