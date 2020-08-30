@@ -23,6 +23,19 @@ h5
   background-color: #f7f7f7;
 }
 
+.myBtn
+{
+  color: black;
+  text-decoration: none;
+  background-color: #f7f7f7;
+}
+.myBtn:hover, .myBtn:active
+{
+  color: darkgreen;
+  text-decoration: none;
+  background-color: #f7f7f7;
+}
+
 ul.timeline {
     list-style-type: none;
     position: relative;
