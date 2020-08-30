@@ -18,6 +18,11 @@ h5
   padding-top: 2rem;
 }
 
+.timeline-card
+{
+  background-color: #f7f7f7;
+}
+
 ul.timeline {
     list-style-type: none;
     position: relative;
