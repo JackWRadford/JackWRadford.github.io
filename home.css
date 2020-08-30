@@ -1,68 +1,11 @@
-html
-{
+html{
   padding-left: 1rem;
   padding-right: 1rem;
 }
 body{
-  background-color: white;
+  background-color: black;
 }
-
-h5
-{
-  font-size: 30px;
-}
-
-.name
-{
+.name{
   text-align: center;
   padding-top: 2rem;
-}
-
-.timeline-card
-{
-  background-color: #f7f7f7;
-}
-
-.myBtn
-{
-  color: black;
-  text-decoration: none;
-  background-color: #f7f7f7;
-}
-.myBtn:hover, .myBtn:active
-{
-  color: darkgreen;
-  text-decoration: none;
-  background-color: #f7f7f7;
-}
-
-ul.timeline {
-    list-style-type: none;
-    position: relative;
-}
-ul.timeline:before {
-    content: ' ';
-    background: black;
-    display: inline-block;
-    position: absolute;
-    left: 9px;
-    width: 2px;
-    height: 100%;
-    z-index: 400;
-}
-ul.timeline > li {
-    margin: 20px 0;
-    padding-left: 0px;
-}
-ul.timeline > li:before {
-    content: ' ';
-    background: white;
-    display: inline-block;
-    position: absolute;
-    border-radius: 30%;
-    border: 2px solid black;
-    left: 0px;
-    width: 20px;
-    height: 20px;
-    z-index: 400;
 }
