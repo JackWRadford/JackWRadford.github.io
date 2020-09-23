@@ -4,9 +4,23 @@ html{
 }
 body{
   background-color: black;
+  text-align: center;
 }
 .name{
   text-align: center;
   padding-top: 2rem;
   color: white;
+}
+.nameLink, .nameLink:visited, .nameLink:hover, .nameLink:active{
+  color: white;
+  text-decoration: none;
+}
+
+.btn{
+  font-size: 20px !important;
+  color: black !important;
+  background-color: white !important
+}
+.menu-buttons{
+  padding: 50px;
 }
