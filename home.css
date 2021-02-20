@@ -3,7 +3,7 @@ html{
   padding-right: 1rem;
 }
 body{
-  background-color: rgb(126, 47, 47);
+  background-color: rgb(49, 49, 49);
   text-align: center;
 }
 .name{
@@ -15,7 +15,6 @@ body{
   color: white;
   text-decoration: none;
 }
-
 .btn{
   font-size: 20px !important;
   color: black !important;
@@ -23,4 +22,10 @@ body{
 }
 .menu-buttons{
   padding: 50px;
+}
+/*center horiz and vert*/
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
