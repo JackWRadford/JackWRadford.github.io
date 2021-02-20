@@ -32,3 +32,18 @@ body{
   color: white;
   font-weight: bold;
 }
+.header{
+  padding: 10p 16px;
+  background-color: rgb(88, 88, 88);
+}
+.content{
+  padding: 16px;
+}
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content{
+  padding-top: 102px;
+}

@@ -8,22 +8,43 @@
     <link rel="stylesheet" href="home.css">
     <title>Jack Radford</title>
   </head>
-
-  <div class="name">
-    <a href="index.html" class="nameLink"><h1>JACK W RADFORD</h1></a>
+  
+  <div class="header" id="myHeader">
+    <div class="name">
+      <a href="index.html" class="nameLink"><h1>jack w radford</h1></a>
+    </div>
   </div>
+  
 
   <body>
 
-  <div>
-    <p class="center" id="construction">
-      under construction
-    </p>
+  <div class="content">
+    <div>
+      <p class="center" id="construction">
+        under construction
+      </p>
+    </div>
   </div>
 
     <!-- <div class="menu-buttons">
       <a href="snake-game.html" class="   " role="button" aria-pressed="true">snake game</a>
     </div> -->
+    
+    <!--sticky header script-->
+    <script>
+      window.onscroll = function() {myFunction()};
+      
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+    </script>
 
     <!-- jQuery, Popper.js, Bootstrap JS, -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
