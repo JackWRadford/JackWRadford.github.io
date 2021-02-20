@@ -4,6 +4,7 @@ body{
   text-align: center;
 }
 .name{
+  padding: 50px;
   text-align: center;
   font-weight: bold;
   color: white;
@@ -30,7 +31,7 @@ body{
   font-weight: bold;
 }
 .header{
-  margin: 50px;
+  
   background-color: rgb(71, 71, 71);
 }
 .content{
