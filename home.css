@@ -33,10 +33,10 @@ body{
 }
 .header{
   background-color: rgb(37, 37, 37);
-  box-shadow: 0px 4px 32px rgb(37, 37, 37);
+  /* box-shadow: 0px 4px 32px rgb(37, 37, 37); */
 }
 .content{
-  
+
   color: white;
   padding: 16px;
 }
